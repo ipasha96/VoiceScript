@@ -3,7 +3,7 @@
 ---
 
 ## Table of Contents
-1. [Task 1 - Issue Identification]
+1. [Task 1 - Issue Identification] (#task-1)
 2. [Task 2 - Test Case Design]
 3. [Task 3 - API Testing Plan]
 4. [Task 4 - Workflow Testing]
@@ -12,7 +12,7 @@
 
 ---
 
-## Task 1 - Issue Identification 
+## Task 1 - Issue Identification {#task-1}
 
 The following issues were identified by cross-referencing `transcript_raw_corrupted.json`, `transcript_processed_ai_output_flawed.txt`, and `metadata_corrupted.json`.
 
