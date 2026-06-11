@@ -31,6 +31,7 @@ The following issues were identified by cross-referencing `transcript_raw_corrup
 ```
 
 **Why it matters:** Utterance `start` timestamps are used for audio navigation (e.g., clicking a line jumps to that moment). A mismatch means playback will start at the wrong position, and downstream text-audio alignment tools will produce incorrect sync. 
+
 ---
 
 ### Issue 2 - Transcript Duration Exceeds Audio Duration
@@ -404,16 +405,20 @@ This endpoint presumably accepts raw ASR output and metadata, triggers processin
 
 #### Validation Rules
 **Transcript**
-Cannot be empty
-Must contain speaker labels
-Must contain valid timestamps
+- Cannot be empty
+- Must contain speaker labels
+- Must contain valid timestamps
+
+
 **Metadata**
-ISO 8601 timestamps only
-Known speaker roles only
-Duration > 0
+- ISO 8601 timestamps only
+- Known speaker roles only
+- Duration > 0
+
+
 **IDs**
-Unique
-UUID format
+- Unique
+- UUID format
 ---
 
 ## Task 4 - Workflow Testing 
