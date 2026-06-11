@@ -477,20 +477,23 @@ NEW -> ASSIGNED -> TRANSCRIBED -> REVIEWED -> COMPLETED
 ### Tools
 
 **API Testing**
-Postman
-Newman
-RestAssured (Java)
-Pytest + Requests
+- Postman
+- Newman
+- RestAssured (Java)
+- Pytest + Requests
+  
 **UI Testing**
-Playwright
-Selenium
+- Playwright
+- Selenium
+  
 **Contract Testing**
-JSON Schema Validation
-Pact
+- JSON Schema Validation
+- Pact
+  
 **CI/CD**
-GitHub Actions
-GitLab CI
-Jenkins
+- GitHub Actions
+- GitLab CI
+- Jenkins
 
 ---
 
