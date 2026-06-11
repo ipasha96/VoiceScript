@@ -599,16 +599,22 @@ class TestWorkflow:
 Triggers: Configure pipeline workflows (via GitHub Actions or GitLab CI) to execute on every pull_request targeting the main or develop branches.
 
 Developer Push
+
       ↓
 GitHub Action
+
       ↓
 Run Unit Tests
+
       ↓
 Run API Tests
+
       ↓
 Run Workflow Tests
+
       ↓
 Generate Report
+
       ↓
 Deploy
 
